@@ -1,5 +1,67 @@
+/* commons */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* /commons */
+
+/* header */
+
+header {
+    height: 70px;
+    width: 100%;
+}
+
+.speaker {
+    display:flex;
+    color: white;
+    justify-content: flex-end;
+    align-items:center;
+}
+
+.ciak {
+    padding: 10px 10px;
+    background-image: linear-gradient(rgb(56, 56, 56), black);
+    border-radius: 5px;
+}
+
+header i {
+    color: white;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+ .fa-expand-arrows-alt {
+    padding: 10px 10px;
+    background-image: linear-gradient(rgb(56, 56, 56), black);
+    border-radius: 5px;
+    font-size: 18px;
+    margin-left: 5px;
+   
+}
+
+/* /header */
+
+/* main */
+
+
+/* /main */
+
+/* footer */
+
+/* /footer */
+
+
+
+
+
+
+/* debug */
+header {
+    background-color: black;
 }
