@@ -15,6 +15,7 @@
 header {
     height: 70px;
     width: 100%;
+    background-color: black;
 }
 
 .speaker {
@@ -22,6 +23,7 @@ header {
     color: white;
     justify-content: flex-end;
     align-items:center;
+    height: 100%;
 }
 
 .ciak {
@@ -40,7 +42,6 @@ header i {
     padding: 10px 10px;
     background-image: linear-gradient(rgb(56, 56, 56), black);
     border-radius: 5px;
-    font-size: 18px;
     margin-left: 5px;
    
 }
@@ -48,12 +49,57 @@ header i {
 /* /header */
 
 /* main */
+main {
+    width: 100%;
+    background-color: black;
+    padding-bottom: 50px;
+}
+
+.manner {
+    display: flex;
+    width: 96%;
+    margin: 0  auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.allow i {
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    font-size: 40px;
+
+}
+
+.allow .fa-caret-right {
+    color: rgb(0, 174, 255);
+}
+
+.allow_text {
+    color: white;
+}
+
+.photo_holder {
+    width: 90%;
+    margin: 0 auto;
+}
 
 
 /* /main */
 
 /* footer */
 
+footer {
+    width: 100%;
+    height:80px;
+    background-color: #202223;
+}
+
+.iconed {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
 /* /footer */
 
 
@@ -62,6 +108,41 @@ header i {
 
 
 /* debug */
-header {
+
+/* header {
     background-color: black;
+} */
+/* 
+.debug .manner {
+    height: 850px;
+} */
+
+.debug .photo_holder {
+    height: 800px;
+    background-color: violet;
+
 }
+
+.debug .lefty {
+    height: 100%;
+    width:20%;
+    flex-grow: 1;
+    background-color: blue;
+}
+
+.debug .centrly {
+    height: 100%;
+    width: 60%;
+    flex-grow:2;
+    background-color: chartreuse;
+}
+
+.debug .righty {
+    height: 100%;
+    width: 10%;
+    flex-grow: 0;
+    background-color: yellow;
+}
+
+
+
