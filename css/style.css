@@ -99,19 +99,21 @@ footer {
     width: 100%;
     height: 100%;
     display: flex;
+    justify-content: space-between;
     
 }
 
 .lefty {
-    width:20%;
-    flex-grow: 1;
+    width:12%;
+    flex-grow: 0;
     display: flex;
     height: 100%;
     align-items: center;
 
 }
 
-.lefty .fa-chevron-up {
+.lefty .fa-chevron-up,
+.centrly .fa-chevron-up {
     font-size: 14px;
 }
 
@@ -120,8 +122,32 @@ footer {
 .centrly {
     height: 100%;
     width: 60%;
-    flex-grow:2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow:0;
+
 }
+
+.due .impiastro{
+    font-size: 14px;
+    position: relative;
+    bottom: 15px;
+
+}
+
+.four .fa-share-alt {
+    color: rgb(60, 211, 0);
+}
+
+.six .impiastra {
+    font-size: 6px;
+    position: relative;
+    top: 5px;
+    right: 7px;
+}
+
+
 
 .righty {
     width: 10%;
@@ -143,7 +169,8 @@ footer {
     font-size: 18px;
 }
 
-.lefty i {
+.lefty i,
+.centrly i {
     font-size: 30px;
     margin-bottom: 5px;
     color: white;
@@ -176,10 +203,10 @@ footer {
     background-color: blue;
 } */
 
-.debug .centrly {
+/* .debug .centrly {
    
     background-color: chartreuse;
-}
+} */
 
 /* .debug .righty {
     height: 100%;
